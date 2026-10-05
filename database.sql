@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS npc_punch_system (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    player_id INT NOT NULL,
+    npc_model VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
